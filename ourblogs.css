@@ -1,0 +1,219 @@
+/* General Styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+
+
+/* Logo */
+.logo{
+    width: 150px;
+}
+
+
+
+/* Container Styles */
+.container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.76)), url(images/Background/Our\ Blog\ 2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* Navbar Styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.navbar{
+    padding: 20px;
+}
+
+
+
+ul li{
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
+/* Welcome Styles */
+button{
+    background-color: rgb(31, 88, 212);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#Active{
+    color: rgb(59, 116, 238);
+}
+
+
+
+/* Navbar-Hover Styles */
+ul li a:hover{
+    color: rgb(59, 116, 238);
+    transition: all 2s;
+    border-bottom: 2px solid rgb(59, 116, 238);
+}
+
+#Active:hover{
+    color: white;
+    transition: all 1s;
+    border-bottom: 2px solid rgb(59, 116, 238);
+}
+
+button:hover{
+    background-color: white;
+    transition: all 1s;
+}
+
+a:hover{
+    color: rgb(59, 116, 238);
+    transition: all 2s;
+}
+
+/* Blogs Styles */
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+
+i{
+    text-align: center;
+    color: white;
+    font-family: poppins;
+    margin: 30px;
+    background-color: rgb(59, 116, 238);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+}
+
+h5{
+    color: rgb(59, 116, 238);
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: -20px;
+    width: 300%;
+    text-align: center;
+    position: relative;
+    right: 100px;
+}
+
+
+/* Blogs Styles 2 */
+.social-icons-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+i{
+    text-align: center;
+    color: white;
+    font-family: poppins;
+    margin: 30px;
+    background-color: rgb(59, 116, 238);
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.class-2{
+    color: rgb(59, 116, 238);
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: -20px;
+    width: 300%;
+    text-align: center;
+    position: relative;
+    right: 100px;
+}
+/* Blogs Styles 3 */
+.social-icons-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+i{
+    text-align: center;
+    color: white;
+    font-family: poppins;
+    margin: 30px;
+    background-color: rgb(59, 116, 238);
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.class-3{
+    color: rgb(59, 116, 238);
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: -20px;
+    width: 300%;
+    text-align: center;
+    position: relative;
+    right: 100px;
+}
+
+/* Hover Styles */
+h5:hover{
+    transition: 1s;
+    color: white;
+    background-color: rgb(59, 116, 238);
+}
+
+i:hover{
+    transition: 1s;
+    color: rgb(59, 116, 238);
+    background-color: white
+}
+
+
+/* Bottom-Tag */
+.bottom-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 50%;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    left: 19em;
+    border-left: 8px solid rgb(59, 116, 238);
+    border-right: 8px solid rgb(59, 116, 238);
+    font-weight: 500;
+    font-size: large;
+}
